@@ -20,9 +20,13 @@ img {
 .masthead {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
 
-.navigation {
+.navigation__list {
   display: flex;
   flex-direction: row;
   align-items: center; }
+
+.navigation__list--item {
+  margin-left: 20px; }

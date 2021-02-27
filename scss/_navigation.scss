@@ -1,5 +1,9 @@
 @import "./variable";
 
-.navigation {
+.navigation__list {
   @include flex-row;
+}
+
+.navigation__list--item {
+  margin-left: 20px;
 }

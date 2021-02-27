@@ -17,6 +17,7 @@
 .stay-positive__paragraph {
   margin-top: 24px;
   margin-bottom: 24px;
+  @include paragraph-style;
 }
 
 .stay-positive__paragraph--link {

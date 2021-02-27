@@ -39,4 +39,5 @@
 .header__article--paragraph {
   margin-top: 28px;
   margin-bottom: 28px;
+  @include paragraph-style;
 }

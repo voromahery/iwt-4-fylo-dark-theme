@@ -66,7 +66,9 @@ blockquote {
 
 .header__article--paragraph {
   margin-top: 28px;
-  margin-bottom: 28px; }
+  margin-bottom: 28px;
+  line-height: 22px;
+  font-size: 14px; }
 
 .navigation__list {
   display: flex;
@@ -90,6 +92,10 @@ blockquote {
 .features__heading {
   font-size: 18px; }
 
+.features__paragraph {
+  line-height: 22px;
+  font-size: 14px; }
+
 .section__stay-positive {
   margin-top: 136px;
   margin-bottom: 136px; }
@@ -103,7 +109,9 @@ blockquote {
 
 .stay-positive__paragraph {
   margin-top: 24px;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  line-height: 22px;
+  font-size: 14px; }
 
 .stay-positive__paragraph--link {
   border-bottom: 1px solid #339ecc;
@@ -152,6 +160,10 @@ blockquote {
   width: 22px;
   height: 16px; }
 
+.testimony__quote {
+  line-height: 22px;
+  font-size: 14px; }
+
 .testimony__image {
   border-radius: 50%;
   max-width: 40px;
@@ -175,7 +187,9 @@ blockquote {
 
 .a11y__paragraph {
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  line-height: 22px;
+  font-size: 14px; }
 
 .a11y__input {
   border-radius: 50px;

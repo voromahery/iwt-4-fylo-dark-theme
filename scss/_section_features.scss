@@ -16,3 +16,7 @@
 .features__heading {
   font-size: 18px;
 }
+
+.features__paragraph {
+  @include paragraph-style;
+}

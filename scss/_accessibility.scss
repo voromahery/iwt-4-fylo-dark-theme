@@ -7,6 +7,7 @@
 .a11y__paragraph {
   margin-top: 30px;
   margin-bottom: 30px;
+  @include paragraph-style;
 }
 
 .a11y__input {

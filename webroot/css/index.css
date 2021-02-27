@@ -57,10 +57,9 @@ img {
   margin-right: 6px; }
 
 .header__article {
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center; }
-
-.header__article--heading {
-  margin-top: 40px; }
 
 .header__article--paragraph {
   margin-top: 28px;

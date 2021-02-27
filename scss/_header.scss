@@ -6,6 +6,13 @@
   // flex-wrap: wrap;
 }
 
+.header {
+  background-color: $intro-background;
+  // background-image: url("#{$image-path}/bg-curvy-mobile.svg");
+  // background-position: center;
+  // background-size: contain;
+}
+
 .masthead__title--link {
   position: relative;
 }
@@ -25,6 +32,10 @@
 
 .header__article {
   text-align: center;
+}
+
+.header__article--heading {
+  margin-top: 40px;
 }
 
 .header__article--paragraph {

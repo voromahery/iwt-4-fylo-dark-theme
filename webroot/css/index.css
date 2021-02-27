@@ -38,6 +38,9 @@ img {
   align-items: center;
   justify-content: space-between; }
 
+.header {
+  background-color: #1c2431; }
+
 .masthead__title--link {
   position: relative; }
 
@@ -55,6 +58,9 @@ img {
 
 .header__article {
   text-align: center; }
+
+.header__article--heading {
+  margin-top: 40px; }
 
 .header__article--paragraph {
   margin-top: 28px;

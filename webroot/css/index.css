@@ -182,6 +182,12 @@ blockquote {
 .testimony__activity {
   font-size: 10px; }
 
+.a11y__wrapper {
+  padding: 26px;
+  background-color: #202a3c;
+  border-radius: 8px;
+  text-align: center; }
+
 .a11y__heading {
   font-size: 18px; }
 
@@ -198,10 +204,15 @@ blockquote {
   padding-right: 22px;
   border: none; }
 
-.a11y__input,
-.a11y__button {
-  width: 100%;
-  max-width: 100%; }
+.a11y__input {
+  width: 90%;
+  max-width: 90%; }
+
+.a11y__input {
+  width: -webkit-fill-available;
+  max-width: -webkit-fill-available; }
 
 .a11y__button {
+  width: 100%;
+  max-width: 100%;
   margin-top: 22px; }

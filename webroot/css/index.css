@@ -81,5 +81,26 @@ img {
   max-width: 60px; }
 
 .features__article {
-  margin-top: 60px;
-  margin-bottom: 60px; }
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.features__heading {
+  font-size: 18px; }
+
+.section__stay-positive {
+  margin-top: 136px;
+  margin-bottom: 136px; }
+
+.stay-positive__heading {
+  font-size: 18px; }
+
+.stay-positive__article {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.stay-positive__paragraph {
+  margin-top: 24px;
+  margin-bottom: 24px; }
+
+.stay-positive__link {
+  color: #339ecc; }

@@ -1,0 +1,28 @@
+@import "./variable";
+
+.a11y__heading {
+  font-size: 18px;
+}
+
+.a11y__paragraph {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.a11y__input {
+  border-radius: 50px;
+  height: 49px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: none;
+}
+
+.a11y__input,
+.a11y__button {
+  width: 100%;
+  max-width: 100%;
+}
+
+.a11y__button {
+  margin-top: 22px;
+}

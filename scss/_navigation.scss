@@ -2,6 +2,7 @@
 
 .navigation__list {
   @include flex-row;
+  flex-wrap: wrap;
 }
 
 .navigation__list--item {

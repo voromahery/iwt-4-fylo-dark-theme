@@ -3,8 +3,14 @@
 .masthead {
   @include flex-row;
   justify-content: space-between;
+  // flex-wrap: wrap;
 }
 
 .header__article {
   text-align: center;
+}
+
+.header__article--paragraph {
+  margin-top: 28px;
+  margin-bottom: 28px;
 }

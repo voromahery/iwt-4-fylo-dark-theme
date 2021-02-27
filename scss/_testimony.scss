@@ -1,0 +1,21 @@
+@import "./variable";
+
+.testimony__blockquote {
+  background-color: $testimonials-background;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.testimony__image {
+  border-radius: 50%;
+}
+
+.testimony__identity {
+  @include flex-row;
+}
+
+.testimony__name {
+    margin-bottom: 8px;
+}

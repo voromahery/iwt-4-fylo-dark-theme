@@ -1,0 +1,46 @@
+@import "./variable";
+
+footer {
+  background-color: $footer-background;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.footer__heading--link {
+  background-image: url("#{$image-path}/logo.svg");
+  background-position-y: center;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 158px;
+  height: 47px;
+  display: block;
+  margin-right: 6px;
+}
+
+.footer__a11y--list {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.links__wrapper {
+  margin-top: 76px;
+  margin-bottom: 76px;
+}
+
+.contact__list--item,
+.footer__nav--list-item,
+.a11y__list--item {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.social__media--list {
+  @include flex-row;
+  justify-content: center;
+}
+
+.social__media--list-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}

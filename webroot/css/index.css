@@ -23,6 +23,9 @@ button {
 img {
   width: 100%; }
 
+blockquote {
+  margin: 0; }
+
 .get__started--button {
   background-color: #339ecc;
   border-radius: 50px;

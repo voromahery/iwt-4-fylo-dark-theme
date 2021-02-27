@@ -17,13 +17,27 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+a,
+button {
   color: inherit;
+}
+
+button {
+  border: none;
 }
 
 img {
   width: 100%;
 }
 
-// .get__started--button {
-
-// }
+.get__started--button {
+  background-color: $blue;
+  border-radius: 50px;
+  max-width: max-content;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 72px;
+  padding-right: 72px;
+}

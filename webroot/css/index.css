@@ -11,17 +11,35 @@ ul {
   padding: 0; }
 
 a {
-  text-decoration: none;
+  text-decoration: none; }
+
+a,
+button {
   color: inherit; }
+
+button {
+  border: none; }
 
 img {
   width: 100%; }
+
+.get__started--button {
+  background-color: #339ecc;
+  border-radius: 50px;
+  max-width: max-content;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 72px;
+  padding-right: 72px; }
 
 .masthead {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between; }
+
+.header__article {
+  text-align: center; }
 
 .navigation__list {
   display: flex;

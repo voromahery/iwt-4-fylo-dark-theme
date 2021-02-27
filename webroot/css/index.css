@@ -124,3 +124,48 @@ blockquote {
   margin-left: 8px;
   width: 16px;
   height: 16px; }
+
+.testimony__blockquote {
+  background-color: #202a3c;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-radius: 8px; }
+
+.testimony {
+  position: relative;
+  display: grid;
+  grid-row-gap: 22px;
+  margin-top: 145px;
+  margin-bottom: 145px; }
+
+.testimony::before {
+  content: "";
+  background-image: url("../images/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -22px;
+  left: 4px;
+  display: block;
+  width: 22px;
+  height: 16px; }
+
+.testimony__image {
+  border-radius: 50%;
+  max-width: 40px;
+  margin-right: 10px; }
+
+.testimony__identity {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.testimony__name {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 14px; }
+
+.testimony__activity {
+  font-size: 10px; }

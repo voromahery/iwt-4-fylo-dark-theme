@@ -246,12 +246,52 @@ footer {
   margin-top: 22px;
   margin-bottom: 22px; }
 
+.contact__list--item,
 .social__media--list {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; }
+
+.contact__list--item {
+  position: relative;
+  align-items: start; }
+
+.contact__list--item::before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 40px;
+  margin-right: 13px; }
+
+.location::before {
+  background-image: url("../images/icon-location.svg");
+  margin-right: 30px; }
+
+.email::before {
+  background-image: url("../images/icon-email.svg"); }
+
+.phone::before {
+  background-image: url("../images/icon-phone.svg"); }
+
+.social__media--list {
   justify-content: center; }
 
 .social__media--list-item {
   margin-left: 10px;
   margin-right: 10px; }
+
+.social__media--link {
+  text-indent: -9999px;
+  display: block;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px; }
+
+.facebook {
+  background-image: url("../images/icon-facebook.svg"); }
+
+.instagram {
+  background-image: url("../images/icon-instagram.svg"); }
+
+.twitter {
+  background-image: url("../images/icon-twitter.svg"); }

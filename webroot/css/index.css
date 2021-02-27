@@ -74,3 +74,13 @@ img {
 
 .navigation__list--item {
   margin-left: 20px; }
+
+.section__features {
+  text-align: center; }
+
+.features__image {
+  max-width: 60px; }
+
+.features__article {
+  margin-top: 60px;
+  margin-bottom: 60px; }

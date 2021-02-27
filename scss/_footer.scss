@@ -4,6 +4,7 @@ footer {
   background-color: $footer-background;
   padding-top: 65px;
   padding-bottom: 65px;
+  @include inline-padding;
 }
 
 .footer__heading--link {

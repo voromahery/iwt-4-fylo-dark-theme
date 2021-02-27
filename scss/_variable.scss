@@ -21,6 +21,11 @@ $light-red: hsl(0, 100%, 63%);
   font-size: 14px;
 }
 
+@mixin inline-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 // Path
 $image-path: "../images";
 

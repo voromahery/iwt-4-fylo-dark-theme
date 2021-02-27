@@ -2,6 +2,7 @@
 
 .section__features {
   text-align: center;
+  @include inline-padding;
 }
 
 .features__image {

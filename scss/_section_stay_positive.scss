@@ -3,6 +3,7 @@
 .section__stay-positive {
   margin-top: 136px;
   margin-bottom: 136px;
+  @include inline-padding;
 }
 
 .stay-positive__heading {

@@ -3,7 +3,8 @@
 .masthead {
   @include flex-row;
   justify-content: space-between;
-  // flex-wrap: wrap;
+  @include inline-padding;
+   // flex-wrap: wrap;
 }
 
 .header {

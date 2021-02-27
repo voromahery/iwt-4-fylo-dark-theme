@@ -1,5 +1,9 @@
 @import "./variable";
 
+.a11y {
+  @include inline-padding;
+}
+
 .a11y__wrapper {
   padding: 26px;
   background-color: $testimonials-background;

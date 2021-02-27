@@ -39,7 +39,9 @@ blockquote {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px; }
 
 .header {
   background-color: #1c2431; }
@@ -79,7 +81,9 @@ blockquote {
   margin-left: 20px; }
 
 .section__features {
-  text-align: center; }
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px; }
 
 .features__image {
   max-width: 60px; }
@@ -97,7 +101,9 @@ blockquote {
 
 .section__stay-positive {
   margin-top: 136px;
-  margin-bottom: 136px; }
+  margin-bottom: 136px;
+  padding-left: 25px;
+  padding-right: 25px; }
 
 .stay-positive__heading {
   font-size: 18px; }
@@ -181,6 +187,10 @@ blockquote {
 .testimony__activity {
   font-size: 10px; }
 
+.a11y {
+  padding-left: 25px;
+  padding-right: 25px; }
+
 .a11y__wrapper {
   padding: 26px;
   background-color: #202a3c;
@@ -219,7 +229,9 @@ blockquote {
 footer {
   background-color: #0b1523;
   padding-top: 65px;
-  padding-bottom: 65px; }
+  padding-bottom: 65px;
+  padding-left: 25px;
+  padding-right: 25px; }
 
 .footer__heading--link {
   background-image: url("../images/logo.svg");

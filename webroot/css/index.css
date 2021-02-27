@@ -1,5 +1,10 @@
 body {
-  margin: auto; }
+  margin: auto;
+  background-color: #181f2a;
+  color: #ffffff; }
+
+body * {
+  font-family: sans-serif; }
 
 ul {
   list-style: none;
@@ -11,3 +16,13 @@ a {
 
 img {
   width: 100%; }
+
+.masthead {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }

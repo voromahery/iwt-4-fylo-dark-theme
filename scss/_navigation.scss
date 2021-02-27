@@ -1,0 +1,5 @@
+@import "./variable";
+
+.navigation {
+  @include flex-row;
+}
